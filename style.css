@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+  --color-focus: #fff;
+  --color-unfocus: #353535
+}
+
+
+ body {
+  font-family: 'Roboto', sans-serif;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width: 100%;
+ }
+
+.bg-home {
+  background-image: url(assets/bg-home.png);
+}
+.bg-universe {
+  background-image: url(assets/bg-universe.png);
+}
+.bg-explorer {
+  background-image: url(assets/bg-explorer.png);
+}
+
+
+
+ .flex {
+  display: flex;
+ }
+
+ .focus {
+  color: var(--color-focus);
+ }
+
+
+nav {
+  padding: 4rem 7.2rem;
+  align-items: center;
+}
+
+nav ul {
+  margin-left: 3.2rem;
+  gap: 3.2rem;
+}
+
+nav ul li a {
+  list-style: none;
+  font-size: 2.1rem;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-unfocus);
+}
+
+a:hover {
+  color: var(--color-focus);
+}
+
+.container {
+  width: 100%;
+  height: 70vh;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+h1 {
+  font-weight: bold;
+  font-size: 4.8rem;
+  color: #E1E1E6;
+}
+
+#button-home {
+  font-weight: bold;
+  font-size: 1.4rem;
+  padding: 1.2rem 3.2rem;
+  border: 0.2rem solid white;
+  background: transparent;
+  color: #E1E1E6;
+  text-transform: uppercase;
+  border-radius: .6rem;
+  transition: .4s;
+  cursor: pointer;
+}
+
+#button-home:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+#button-home{
+  text-decoration: none;
+  color: #E1E1E6;
+}
+.universe p {
+  color: #E1E1E6;
+  font-size: 1.8rem;
+  max-width: 60rem;
+}
+
+.universe {
+  padding: 7rem 10rem;
+  flex-direction: column;
+  gap: 1.6rem;
+}
